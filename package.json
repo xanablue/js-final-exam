@@ -1,0 +1,24 @@
+{
+  "name": "js-final-exam",
+  "version": "1.0.0",
+  "description": "Javascript final exam",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xanablue/js-final-exam.git"
+  },
+  "author": "Xana Navoichick, Tristen Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xanablue/js-final-exam/issues"
+  },
+  "homepage": "https://github.com/xanablue/js-final-exam#readme",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.3.0"
+  }
+}
