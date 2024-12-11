@@ -1,0 +1,8 @@
+### Variables
+@url = http://localhost:3000/api/v1
+
+### Menu
+GET {{ url }}/menu
+
+### Menu by ID
+GET {{ url }}/menu/6759ff55981b9892dffeae10

@@ -1,0 +1,146 @@
+/* Base CSS */
+#wrapper {
+    background-color: rgb(255, 251, 249);
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid darkred;
+    height: auto;
+}
+
+body {
+    font-size: 1em;
+    color: darkslategray;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(248, 255, 250);
+    width: auto;
+    height: auto;
+}
+
+header {
+    float: none;
+    width: 1000px;
+    height: auto;
+}
+
+main {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: auto;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+h2 {
+    color: darkgreen;
+    text-align: center;
+    font-size: 1.75em;
+}
+
+h3 {
+    color: darkgreen;
+    padding-left: 5px;
+}
+
+
+/* Design CSS */
+#title {
+    padding-top: 10px;
+    font-size: 3em;
+    text-align: center;
+    color: darkred;
+}
+
+#contents {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.shorthr {
+    width: 75%;
+}
+
+.indentp {
+    text-indent: 40px;
+}
+
+#homeimg {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid darkred;
+    display: block;
+}
+
+.return {
+    font-size: 1em;
+    color: darkred;
+    display: block;
+    text-align: center;
+}
+
+/* Menu CSS */
+.menuitem {
+    width: 875px;
+    border: 2px solid darkred;
+    display: block;
+    height: 200px;
+    padding: 25px 25px 10px 25px;
+
+}
+
+.menuimg {
+    float: left;
+    display: inline-flex;
+    padding-right: 50px;
+}
+
+/* Form CSS */
+.form {
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2.25em;
+    background-color: rgb(248, 255, 250);
+}
+
+legend, label {
+    font-weight: bold;
+}
+
+label {
+    width: 125px;
+    display: inline-block;
+}
+
+input {
+   width: 75%;
+}
+
+button {
+    width: 125px;
+    height: 35px;
+    font-size: 1.1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#status {
+    color: blue;
+    text-align: center;
+}
+
+

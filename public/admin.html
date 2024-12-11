@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Appleton Pizzeria - Events</title>
+        <link rel="stylesheet" href="./styles.css">
+        <script src="./scripts/adminpage.js" defer></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1 id="title">Appleton Pizzeria</h1>
+                <hr class="shorthr">
+            </header>
+            <main>
+                <section id="contents">
+                    <h3 id="status"></h3>
+                    <div>
+                        <h2 class="center">Add an Event</h2>
+                        <form method="post" id="eventform" class="form">
+                            <fieldset>
+                                <legend>Add Event</legend>
+                                <label for="eventname">Event Name:</label>
+                                <input type="text" id="eventname" name="eventname" required>
+                                <br>
+                                <label for="eventloc">Location:</label>
+                                <input type="text" id="eventdesc" name="eventdesc" required>
+                                <br>
+                                <label for="eventdate">Date:</label>
+                                <input type="text" id="eventdate" name="eventdate" required>
+                                <br>
+                                <label for="eventtime">Time:</label>
+                                <input type="text" id="eventtime" name="eventtime" required>
+                                <br><hr class="shorthr">
+                                <button type="submit">Submit Event</button>
+                            </fieldset>
+                        </form><br>
+                    </div>
+                    <hr class="shorthr">
+                    <div>
+                        <h2 class="center">Add a Menu Item</h2>
+                        <form method="post" id="menuform" class="form">
+                            <fieldset>
+                                <legend>Add Menu Item</legend>
+                                <label for="menuname">Item Name:</label>
+                                <input type="text" id="menuname" name="menuname" required>
+                                <br>
+                                <label for="menudesc">Description:</label>
+                                <input type="text" id="menudesc" name="menudesc" required>
+                                <br>
+                                <label for="menuprice">Price:</label>
+                                <input type="text" id="menuprice" name="menuprice" required>
+                                <br>
+                                <label for="menuimg">Image URL:</label>
+                                <input type="text" id="menuimg" name="menuimg" required>
+                                <br><hr class="shorthr">
+                                <button type="submit">Submit Item</button>
+                            </fieldset>
+                                <br><hr class="shorthr">
+                            </form><br>
+                    </div>
+                    <a href="index.html" class="return">Return to Home</a><br>
+                </section>
+            </main>
+        </div>
+        <footer>
+            <small>&copy;2024 Appleton Pizzeria; Xana Navoichick; Tristen Smith</small>
+        </footer>
+    </body>
+</html>
